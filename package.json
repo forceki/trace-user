@@ -1,0 +1,23 @@
+{
+  "name": "@forceki/user-trace",
+  "version": "1.0.0",
+  "description": "for user tracing",
+  "main": "index.js",
+  "scripts": {
+    "test": "main exit 0;",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forceki/user-trace.git"
+  },
+  "author": "forceki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forceki/user-trace/issues"
+  },
+  "homepage": "https://github.com/forceki/user-trace#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@forceki"
+  }
+}
